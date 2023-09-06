@@ -1,0 +1,44 @@
+.big-card__content{
+    width: 700px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .3rem;
+    overflow: hidden;
+    background-color: transparent;
+}
+.big-card__content:hover {
+    background-color: #4645451e;
+    cursor: pointer;
+    filter: brightness(110%);
+}
+
+.big-card__image{
+    min-width: 600px;
+    max-width: 600px;
+    background-color: transparent;
+}
+
+.big-card__date {
+    font-size: .7rem;
+    color: #3c3c3c;
+    background-color: transparent;
+}
+
+.big-card__title {
+    font-size: .8rem;
+    color: #d0d0d0;
+    background-color: transparent;
+}
+
+.big-card__text {
+    color: #343434;
+    background-color: transparent;
+    margin: auto 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #d0d0d0;
+}

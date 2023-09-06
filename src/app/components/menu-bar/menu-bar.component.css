@@ -1,0 +1,44 @@
+.menu-bar__content {
+    width: 95%;
+    margin: 1rem auto -2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-navegation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu-image img {
+    border-radius: 50%;
+}
+
+.menu-titles {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    color: #6C6C6C;
+}
+
+.menu-titles span:hover {
+    color: #CDCDCD;
+    cursor: pointer;
+}
+
+.menu-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.icon {
+    filter: brightness(60%);
+}
+.icon:hover {
+    filter: brightness(100%);
+    cursor: pointer;
+}

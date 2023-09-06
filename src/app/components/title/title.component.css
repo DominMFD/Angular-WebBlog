@@ -1,0 +1,23 @@
+.title__content {
+    width: 95%;
+    margin:3rem auto;
+    text-align: center;
+}
+
+.title__content h1{
+    width: auto;
+    margin: -2.1rem auto -1.2rem auto;
+    font-size: 6.3rem;
+    background-color: transparent;
+    opacity: 40%;
+    filter: brightness(150%);
+    filter: saturate(150%);
+}
+
+
+
+@media screen and (min-width: 1400px) {
+    .title__content h1 {
+        font-size: 8.2rem;
+    }
+}

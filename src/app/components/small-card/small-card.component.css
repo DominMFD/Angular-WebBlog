@@ -1,0 +1,52 @@
+.small-card__content {
+    width: 700px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: .5rem;
+}
+
+.small-card__content:hover {
+        background-color: #4645451e;
+        cursor: pointer;
+        filter:saturate(120%)
+}
+
+
+.content__left {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.content__left img {
+    min-width: 100%;
+}
+
+.content__right {
+    display: flex;
+    flex-direction: column;
+    justify-content:first baseline;
+    padding: .4rem;
+    gap: .3rem;
+    margin-right: 1rem;
+}
+
+.small-card__date span {
+    color: #3c3c3c;
+    font-size: .7rem;
+}
+
+.small-card__title h1 {
+    color: #d0d0d0;
+    font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+

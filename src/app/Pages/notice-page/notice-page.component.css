@@ -1,0 +1,46 @@
+hr {
+    width: 95%;
+    margin: 3rem auto;
+}
+
+.notice-content {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2.2rem;
+    margin-bottom: 5rem;
+}
+
+.notice-title {
+    color: #E5E5E5;
+    align-self: center;
+}
+
+.notice-date {
+    color: #323232;
+    align-self: center;
+    font-size: .7rem;
+}
+
+.notice-text {
+    color: #6A6A6A;
+    line-height: 1.5rem;
+}
+
+.notice-image {
+    align-self: center;
+}
+
+.back-home {
+    align-self: center;
+}
+.back-home a {
+    text-decoration:none;
+    color: #E5E5E5;
+}
+
+.back-home a:hover{
+    color: #323232;
+}

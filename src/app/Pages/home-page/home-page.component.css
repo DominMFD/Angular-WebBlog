@@ -1,0 +1,17 @@
+.content__page {
+    width: 86%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

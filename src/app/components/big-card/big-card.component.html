@@ -1,0 +1,14 @@
+<div class="big-card__content">
+    <div class="big-card__image">
+        <a [routerLink]="['notice', id]"><img src="{{cardPhoto}}" alt="" width="auto" height="400px"></a>
+    </div>
+    <div class="big-card__date">
+        <span>{{cardDate}}</span>
+    </div>
+    <div class="big-card__title">
+       <h1><a [routerLink]="['notice', id]">{{cardTitle}}</a></h1>
+    </div>
+    <div class="big-card__text">
+        <p>{{cardDescription}} </p>
+    </div>
+</div>
